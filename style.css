@@ -43,11 +43,11 @@ li a {
   z-index: -1;
 }
 
-.banner{
+.banner {
   position: relative;
 }
 
-.star{
+.star {
   position: absolute;
   top: 10%;
   left: 33%;
@@ -108,6 +108,12 @@ li a {
   align-items: center;
 }
 
+.footer-sec {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
 .apply-access {
   font-size: 75px;
   margin-bottom: 12px;
@@ -129,7 +135,6 @@ li a {
     font-size: 150px;
     top: 50%;
     left: 45%;
-
   }
 
   .bg-two {
@@ -137,30 +142,30 @@ li a {
     font-size: 150px;
   }
 
-  .banner{
+  .banner {
     margin-top: 100px;
     margin-left: 0;
   }
 
-  .star{
+  .star {
     display: none;
   }
 
-  .trade-sec{
+  .trade-sec {
     margin: 0;
     padding: 20px;
   }
-  
-  .trade{
+
+  .trade {
     width: 100%;
   }
 
-  .banner-text{
+  .banner-text {
     text-align: center;
   }
 
-  .trade-div{
-    flex-direction: column ;
+  .trade-div {
+    flex-direction: column;
   }
 
   .moia {
@@ -174,25 +179,28 @@ li a {
   .footer-div {
     background-color: #eae7b1;
     padding: 20px 10px;
-    gap: 0;
   }
 
-  .footer-img{
+  .footer-sec{
+    gap: 5px;
+  }
+
+  .footer-img {
     width: 30px;
   }
-  
+
   .apply-access {
     text-align: center;
-    font-size: 16px;
-    margin-top: 12px;
+    font-size: 20px;
+    margin-top: 13px;
     font-family: "Auromiya";
   }
-  
+
   .apply-b {
     padding: 5px 12px;
     background: white;
     color: black;
-    font-size: 10px;
+    font-size: 12px;
     text-decoration: none;
     border-radius: 50px;
   }
