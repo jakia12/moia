@@ -43,6 +43,16 @@ li a {
   z-index: -1;
 }
 
+.banner{
+  position: relative;
+}
+
+.star{
+  position: absolute;
+  top: 10%;
+  left: 33%;
+}
+
 .banner-text {
   color: white;
   font-size: 48px;
@@ -134,11 +144,15 @@ li a {
 
   .trade-sec{
     margin: 0;
+    padding: 20px;
   }
   
   .trade{
     width: 100%;
-    text-align: left;
+  }
+
+  .banner-text{
+    text-align: center;
   }
 
   .trade-div{
@@ -146,7 +160,7 @@ li a {
   }
 
   .moia {
-    font-size: 150px;
+    font-size: 140px;
     color: white;
     font-family: "Auromiya";
     margin-top: 0;
@@ -155,26 +169,25 @@ li a {
 
   .footer-div {
     background-color: #eae7b1;
-    padding: 18px 60px;
-    flex-direction: column;
+    padding: 20px 10px;
   }
 
   .footer-img{
-    width: 40px;
+    width: 30px;
   }
   
   .apply-access {
     text-align: center;
-    font-size: 35px;
-    margin-bottom: 12px;
+    font-size: 18px;
+    margin-top: 12px;
     font-family: "Auromiya";
   }
   
   .apply-b {
-    padding: 10px 30px;
+    padding: 5px 12px;
     background: white;
     color: black;
-    font-size: 12px;
+    font-size: 10px;
     text-decoration: none;
     border-radius: 50px;
   }
