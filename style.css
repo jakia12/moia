@@ -270,7 +270,6 @@ li a {
   }
 
   .trade-div {
-    flex-direction: column;
   }
 
   .moia {
@@ -299,5 +298,26 @@ li a {
     font-size: 22px;
     margin-top: 12px;
     font-family: "Auromiya";
+  }
+  .main-trade {
+    display: flex;
+
+    padding: 0 0;
+    justify-content: center;
+  }
+  .trade {
+    width: 67%;
+    margin: 0 auto;
+  }
+  .trade-div {
+    color: white;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+  }
+  .trade-number {
+    font-size: 48px;
+    line-height: 65px;
   }
 }
