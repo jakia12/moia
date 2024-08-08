@@ -34,7 +34,7 @@ li a {
 
 .bg-text {
   font-family: "Auromiya";
-  font-size: 40em;
+  font-size: 36em;
   position: absolute;
   top: 92%;
   margin-left: 35%;
@@ -44,9 +44,9 @@ li a {
 }
 .bg-text2 {
   font-family: Auromiya;
-  font-size: 40em;
+  font-size: 36em;
   position: absolute;
-  top: 515%;
+  top: 475%;
   margin-left: 35%;
   transform: translate(-50%, -50%);
   color: rgba(228, 228, 228, 0.314);
@@ -152,9 +152,9 @@ li a {
     font-size: 40em;
     color: white;
     font-family: "Auromiya";
-    margin-top: -121px;
-    margin-bottom: -150px;
-    margin-left: -0.5%;
+    margin-top: -172px;
+    margin-bottom: 20px;
+    margin-left: 3%;
 }
 
 .main-trade {
