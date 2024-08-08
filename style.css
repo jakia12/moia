@@ -112,3 +112,70 @@ li a {
   text-decoration: none;
   border-radius: 50px;
 }
+
+@media screen and (max-width: 768px) {
+  .bg-text {
+    display: none;
+    font-size: 150px;
+    top: 50%;
+    left: 45%;
+
+  }
+
+  .bg-two {
+    display: none;
+    font-size: 150px;
+  }
+
+  .banner{
+    margin-top: 100px;
+    margin-left: 0;
+  }
+
+  .trade-sec{
+    margin: 0;
+  }
+  
+  .trade{
+    width: 100%;
+    text-align: left;
+  }
+
+  .trade-div{
+    flex-direction: column ;
+  }
+
+  .moia {
+    font-size: 150px;
+    color: white;
+    font-family: "Auromiya";
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+  .footer-div {
+    background-color: #eae7b1;
+    padding: 18px 60px;
+    flex-direction: column;
+  }
+
+  .footer-img{
+    width: 40px;
+  }
+  
+  .apply-access {
+    text-align: center;
+    font-size: 35px;
+    margin-bottom: 12px;
+    font-family: "Auromiya";
+  }
+  
+  .apply-b {
+    padding: 10px 30px;
+    background: white;
+    color: black;
+    font-size: 12px;
+    text-decoration: none;
+    border-radius: 50px;
+  }
+}
