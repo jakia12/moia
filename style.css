@@ -13,7 +13,7 @@ body {
   min-height: 100vh;
 }
 .footer-div {
-  position: absolute;
+  position: fixed;
   left: 0;
   bottom: 0;
   width: 100%;
@@ -92,6 +92,12 @@ li a {
   /* margin-top: -65px; */
 }
 
+.pnl-box{
+  position: absolute;
+  top: -40%;
+  right: 2%;
+}
+
 .main-trade {
   display: flex;
   justify-content: end;
@@ -126,14 +132,14 @@ li a {
 
 }
 
-.moia-img{
+.moia-img {
   position: absolute;
-  top: 40%;
-  right: 10%;
+  top: -40%;
+  right: 5%;
 }
 
 .moia-img img{
-  width: 250px;
+  width: 700px;
   height: auto;
 }
 
@@ -141,7 +147,6 @@ li a {
   font-size: 33em;
   color: white;
   font-family: "Auromiya";
-  margin-top: -13%;
   margin-bottom: -130px;
   margin-left: 5%;
 }
@@ -208,7 +213,7 @@ li a {
     font-size: 20em;
     color: white;
     font-family: "Auromiya";
-    margin-top: -185px;
+    margin-top: -65px;
     margin-bottom: -70px;
     margin-left: 4%;
   }
@@ -320,7 +325,7 @@ li a {
 }
 
   .moia-img img{
-    max-width: 40%
+    max-width: 50%
   }
 
   .moia {
