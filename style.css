@@ -121,6 +121,22 @@ li a {
   font-size: 17px;
 }
 
+.img-div{
+  position: relative;
+
+}
+
+.moia-img{
+  position: absolute;
+  top: 40%;
+  right: 10%;
+}
+
+.moia-img img{
+  width: 250px;
+  height: auto;
+}
+
 .moia {
   font-size: 33em;
   color: white;
@@ -229,6 +245,7 @@ li a {
     margin-bottom: 12px;
     font-family: "Auromiya";
   }
+
 }
 
 @media screen and (max-width: 768px) {
@@ -294,6 +311,16 @@ li a {
   }
 
   .trade-div {
+  }
+
+  .moia-img {
+    position: absolute;
+    top: -30%;
+    right: -15%;
+}
+
+  .moia-img img{
+    max-width: 40%
   }
 
   .moia {
