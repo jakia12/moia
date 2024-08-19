@@ -259,6 +259,12 @@ li a {
   .bg-text2 {
     display: none;
   }
+  .banner-text {
+    color: white;
+    font-size: 00;
+    line-height: 86px;
+  }
+
   .bg-text {
     display: none;
     font-size: 150px;
