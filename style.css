@@ -5,12 +5,19 @@
 .space_nav {
   padding-left: 45px;
 }
+body,
+html {
+  overflow-x: hidden !important;
+}
 .fsl {
   font-size: 26px !important;
 }
 body {
   position: relative;
   min-height: 100vh;
+}
+.bg_ds {
+  display: none;
 }
 .footer-div {
   position: fixed;
@@ -125,6 +132,8 @@ li a {
 
 .trade-text {
   font-size: 17px;
+  position: relative;
+  z-index: 2;
 }
 
 .img-div {
@@ -136,7 +145,9 @@ li a {
   top: -36%;
   right: 5%;
 }
-
+.img-div {
+  position: relative;
+}
 .moia-img img {
   width: 700px;
   height: auto;
@@ -262,7 +273,7 @@ li a {
   .banner-text {
     color: white;
     font-size: 00;
-    line-height: 86px;
+    line-height: 39px;
   }
 
   .bg-text {
@@ -333,15 +344,7 @@ li a {
   }
 
   .moia-img img {
-    max-width: 50%;
-  }
-
-  .moia {
-    font-size: 130px;
-    color: white;
-    font-family: "Auromiya";
-    margin-top: 0;
-    margin-bottom: 20px;
+    width: 40%;
   }
 
   .footer-div {
@@ -383,5 +386,103 @@ li a {
   .trade-number {
     font-size: 48px;
     line-height: 65px;
+  }
+
+  /* mobile img? dsg */
+  .moia-img {
+    position: absolute;
+    top: -104%;
+    right: -108%;
+    z-index: 1;
+  }
+  .moia-img {
+    /* position: absolute; */
+    /* top: -33%; */
+    /* left: -66%; */
+    z-index: 1;
+    /* right: -57%; */
+    transform: translate(30%, 30%);
+  }
+  .moia {
+    font-size: 130px;
+    color: white;
+    font-family: "Auromiya";
+    position: relative;
+    z-index: 2;
+    /* margin-bottom: 20px; */
+    margin: 0;
+    padding: 0;
+    /* white-space: nowrap; */
+  }
+  .banner-text {
+    font-size: 35px;
+  }
+
+  .footer-div {
+    position: static;
+    /* left: 0;
+    bottom: 0;
+    width: 100%; */
+  }
+  .bg_ds {
+    display: block;
+  }
+  .dsp {
+    display: none;
+  }
+
+  .main-trade {
+    display: flex;
+
+    justify-content: end;
+    padding: 0 0;
+  }
+
+  .banner {
+    margin-top: 19px;
+    margin-left: 0;
+  }
+  .banner-text {
+    font-size: 49px;
+    line-height: 50px;
+  }
+  .img-div {
+    margin-top: 98%;
+  }
+  .moia {
+    font-size: 130px;
+    color: white;
+    font-family: "Auromiya";
+    position: relative;
+    z-index: 2;
+
+    /* margin-bottom: 20px; */
+  }
+
+  .main-trade {
+    display: flex;
+    justify-content: end;
+    padding: 20px 0 0;
+  }
+
+  .img-div {
+    margin-top: 2%;
+  }
+  main {
+    position: relative;
+  }
+  .bg_ds {
+    position: static;
+  }
+  .ban {
+    height: 160vh;
+  }
+  .moia-img {
+    position: absolute;
+    /* top: -33%; */
+    /* left: -66%; */
+    z-index: 1;
+    /* right: -57%; */
+    transform: translate(14%, 11%);
   }
 }
