@@ -5,6 +5,13 @@
 .space_nav {
   padding-left: 45px;
 }
+.lg_dvc {
+  display: block;
+}
+
+.mb_dvice {
+  display: none;
+}
 body,
 html {
   overflow-x: hidden !important;
@@ -269,6 +276,12 @@ li a {
 @media screen and (max-width: 768px) {
   .bg-text2 {
     display: none;
+  }
+  .lg_dvc {
+    display: none;
+  }
+  .mb_dvice {
+    display: block;
   }
   .banner-text {
     color: white;
