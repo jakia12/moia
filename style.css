@@ -490,12 +490,13 @@ li a {
   .ban {
     height: 160vh;
   }
+
   .moia-img {
     position: absolute;
     /* top: -33%; */
     /* left: -66%; */
     z-index: 1;
     /* right: -57%; */
-    transform: translate(14%, 11%);
+    transform: translate(13%, 20%);
   }
 }
